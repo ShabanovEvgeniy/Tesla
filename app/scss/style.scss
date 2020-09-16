@@ -126,6 +126,89 @@
     }
 }
 
+// About-car start
+.about-car{
+    padding: 100px 0;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1075px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+}
+.car-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    span{
+        font-family: "Roboto Condensed",sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        
+    }
+    &__desc{
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 96px;
+        line-height: 112px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+    span{
+        font-family: "Roboto Condensed",sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    }
+}
+.car-cadr__text--red{
+    color: $red;
+}
+.about-car__imeges{
+    width: 100%;
+    min-height: 400px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+// About-car end
+
+// speed start
+.speed-row{
+    display: flex;
+    justify-content: space-between;
+    
+    & + .speed-row{
+        margin-top: 100px;
+    }
+}
+.speed__contant{
+
+    &-title{
+        color: $red;
+        margin-bottom: 100px;
+    }
+    &-text{
+        max-width: 305px;
+    }
+}
+.speed__contant-list{
+    list-style: none;
+}
+// speed end
+
+
 
 
 
