@@ -1,0 +1,114 @@
+@media (max-width: 1150px){
+
+    .speed__contant-list li {
+        margin-bottom: 0px;
+    }
+
+    .speed__contant-title {
+        margin-bottom: 15px;
+    }
+    .footer-list{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 950px){
+
+    .about-items{
+        margin-bottom: 30px;
+    }
+
+    .about-items__item{
+        width: 48.8%;
+        margin-bottom: 25px;
+    }
+    .about-car {
+        padding: 30px 0;
+    }
+    .col-lg {
+        width: 100%;
+    }
+    .speed {
+        margin-bottom: 30px;
+    }
+    .speed__contant{
+        text-align: center;
+    }
+    .speed__contant-text{
+        max-width: 100%;
+        padding: 0;
+    }
+    .speed-row + .speed-row{
+        margin-top: 30px;
+    }
+    .speed__contant-title{
+        text-align: center;
+    }
+    .speed__contant-list {
+        padding-left: 0;
+        margin-bottom: 3px;
+    }
+    .footer-list__item {
+        padding: 0 5px;
+    }
+    
+    .footer-list{
+        font-size: 15px;
+    }
+    .footer-list__item+.footer-list__item {
+        border-left: 2px solid black;
+    }
+    .content__title {
+        font-family: 'Roboto',sans-serif;
+        font-size: 76px;
+        line-height: 76px;
+        margin-bottom: 40px;
+    }
+    .content__text {
+        width: 50%;
+        margin-bottom: 45px;
+    }
+
+    
+}
+
+@media (max-width: 618px){
+
+    .about-items{
+        margin-bottom: 20px;
+    }
+
+    .about-items__item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .content__title{
+        font-size: 55px;
+        line-height: 55px;
+        margin-bottom: 20px;
+    }
+    .content__text {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .footer-list__item{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 415px){
+    .footer-list {
+        font-size: 12px;
+        justify-content: space-around;
+    }
+    .footer__btn {
+        padding: 10px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .footer {
+        
+        padding: 20px 0;
+    }
+}

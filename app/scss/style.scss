@@ -91,13 +91,14 @@
 .slick-list{
     height: 100vh;
 } 
+
+
 .slick-dots {
-    margin: -55px auto 0;
-    position: relative;
+    position: absolute;
     list-style: none;
-    padding: 0;
     z-index: 7;
-    max-width: 1200px;
+    bottom: 16px;
+    
     
 
     li{
@@ -133,9 +134,8 @@
 .about-items{
     display: flex;
     justify-content: space-around;
-    max-width: 1075px;
-    margin: 0 auto;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 
 }
 .car-card{
@@ -147,8 +147,7 @@
         font-family: "Roboto Condensed",sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 24px;
-        line-height: 28px;
+        margin-bottom: 15px;
         
     }
     &__desc{
@@ -156,7 +155,7 @@
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 96px;
+        font-size: 80px;
         line-height: 112px;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -175,7 +174,7 @@
 }
 .about-car__imeges{
     width: 100%;
-    min-height: 400px;
+    min-height: 200px;
     img{
         width: 100%;
         height: 100%;
@@ -196,6 +195,7 @@
 .speed-row{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
     & + .speed-row{
         margin-top: 100px;
@@ -278,6 +278,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0;
 
     &__item{
         list-style: none;
