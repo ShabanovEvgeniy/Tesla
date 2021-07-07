@@ -1,4 +1,7 @@
 $(function () {
+
+    //_______slider_______
+
     $('.slider').slick({
         arrows: false,
         dots: true,
@@ -7,6 +10,12 @@ $(function () {
 
     });
 
+    // _________slicknav_______
 
+    $('.mobile-menu').slicknav({
+        appendTo: '.header-items__top',
+        label: '',
 
+    });
 });
+

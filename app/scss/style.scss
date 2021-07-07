@@ -16,6 +16,7 @@
 }
 
 .container{
+    position: relative;
     max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
@@ -27,29 +28,44 @@
     &__logo{
         padding-top: 36px;
         margin-bottom: 29px;
-    }
-    
-    &__btn{
-        height: 60px;
-        width: 60px;
-        border: 1px solid #ffffff;
-        margin-top: 31px;
-        background:rgba(255, 255, 255, 0.1);
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-
-        div{
-            height: 2px;
-            width: 36px;
-            background-color: #fff;
-            margin: 5px 0;
-        }
+        align-self: baseline
     }
 }
+
+.header-items__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.slicknav_menu{
+    display: none;
+}
+
+.slicknav_menu {
+    font-size: 18px;
+    box-sizing: border-box;
+    background: inherit;
+    padding: 5px;
+}
+.mobile-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    &__item{
+        padding-left: 10px;
+    }
+    
+}
+.mobile-menu__item + .mobile-menu__item{
+    margin-left: 10px;
+    border-left: 2px solid white;
+
+}
+
+
 
 .content{
 
