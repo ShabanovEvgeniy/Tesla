@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box;
+}
+
+*,a{
+    box-sizing: inherit;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    list-style: none;
+    color: #ffffff;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+body{
+    background-color: $bg-black;
+    color: #ffffff;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.header-items{
+
+    &__top{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+}
+.col-lg{
+    width: 48.8%;
+}
+
+
+
